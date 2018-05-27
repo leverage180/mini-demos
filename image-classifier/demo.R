@@ -3,7 +3,7 @@ devtools::install_github("rstudio/keras")
 
 # The Keras R interface uses the TensorFlow backend engine by default.
 # To install both the core Keras library as well as the TensorFlow backend use the install_keras() function:
-library(keras)
+library("keras")
 install_keras()
 
 # Load in a pretrained model: Using Inception V3 with ImageNet weights

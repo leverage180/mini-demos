@@ -1,6 +1,6 @@
 # Student sentence analysis - look at sentiments of students' sentences
 
-# install.packages('syuzhet')
+install.packages('syuzhet')
 library(syuzhet)
 
 # Create a vector of emotional sentences. 
@@ -11,4 +11,6 @@ student_sentences <- c('I really like the pie you gave me this morning.',
                        )
 
 # Analyze sentiment for student sentences
+
+student_sentiments <- data.frame(get_sentiment(student_sentences, method = "syuzhet"))
 

@@ -1,6 +1,6 @@
-# install.packages('recommenderlab')
-# install.packages('data.table')
-# install.packages('reshape2')
+ install.packages('recommenderlab')
+ install.packages('data.table')
+ install.packages('reshape2')
 # install.packages('ggplot2')
 
 library(recommenderlab)
